@@ -25,6 +25,13 @@ struct SecondView: View {
                     .frame(maxWidth: .infinity,maxHeight: .infinity)
                     .background(.blue.opacity(0.3))
             }
+            
+            Button {
+                
+            } label: {
+                Text("Show first tab detail")
+            }
+
         }
     }
 }

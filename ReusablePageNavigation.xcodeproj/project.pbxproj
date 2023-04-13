@@ -17,6 +17,7 @@
 		430B023429E72153006CB930 /* NavigationOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430B023329E72153006CB930 /* NavigationOne.swift */; };
 		430B023629E72213006CB930 /* FirstDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430B023529E72213006CB930 /* FirstDetailView.swift */; };
 		430B023829E72479006CB930 /* InDepthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430B023729E72479006CB930 /* InDepthView.swift */; };
+		430B023A29E80246006CB930 /* StateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430B023929E80246006CB930 /* StateManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		430B023329E72153006CB930 /* NavigationOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationOne.swift; sourceTree = "<group>"; };
 		430B023529E72213006CB930 /* FirstDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstDetailView.swift; sourceTree = "<group>"; };
 		430B023729E72479006CB930 /* InDepthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InDepthView.swift; sourceTree = "<group>"; };
+		430B023929E80246006CB930 /* StateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				430B023329E72153006CB930 /* NavigationOne.swift */,
 				430B023529E72213006CB930 /* FirstDetailView.swift */,
 				430B023729E72479006CB930 /* InDepthView.swift */,
+				430B023929E80246006CB930 /* StateManager.swift */,
 			);
 			path = "Second Attempt";
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				430B023A29E80246006CB930 /* StateManager.swift in Sources */,
 				4306DBA529E6E7C800EDFF44 /* FirstTry.swift in Sources */,
 				430B023229E72146006CB930 /* SecondView.swift in Sources */,
 				430B023429E72153006CB930 /* NavigationOne.swift in Sources */,

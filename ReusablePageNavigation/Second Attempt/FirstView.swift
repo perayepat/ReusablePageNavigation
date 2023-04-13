@@ -1,14 +1,21 @@
 import SwiftUI
 
 struct FirstView: View {
+//    @State private var firstDetailIsShown: Bool = false
+    @EnvironmentObject var stateManager: StateManager
     var body: some View {
         NavigationView{
             VStack {
                 Text("First View")
-                
-                NavigationLink("Detail View"){
-                    FirstDetailView()
+            
+                NavigationLink(destination: FirstDetailView(),
+                               isActive: $stateManager.firstDetailIsShown) {
+                    Text("Show Detail View With State")
+                    
                 }
+//                NavigationLink("Detail View"){
+//                    FirstDetailView()
+//                }
             }
         }
     }
@@ -17,5 +24,6 @@ struct FirstView: View {
 struct FirstView_Previews: PreviewProvider {
     static var previews: some View {
         FirstView()
+            .environmentObject(StateManager())
     }
 }
