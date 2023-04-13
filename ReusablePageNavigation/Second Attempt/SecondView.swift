@@ -29,7 +29,7 @@ struct SecondView: View {
             Button {
                 
             } label: {
-                Text("Show first tab detail")
+//                Text("Show first tab detail")
             }
 
         }
